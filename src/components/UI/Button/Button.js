@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // tagged template literal syntax in vanilla JS
 // "styled" object has a ".button" method that will be executed behind the scenes and, in the end, will return a "regular" button component containing the styles specified. the end result gets stored in the Button constant.
-// any props are automatically passed into this component as well.
+// any provided props are automatically passed into the created component as well.
 const Button = styled.button`
   font: inherit;
   padding: 0.5rem 1.5rem;
